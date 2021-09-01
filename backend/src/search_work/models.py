@@ -1,7 +1,7 @@
 from django.db import models
 
 # TODO
-# Create 2 tables with one-to-one response
+# Create 3 tables with one-to-one response
 # Person: first name, second name, phone number, email
 # Resume: speciality, work experience (text), count works before
 # City: city name
