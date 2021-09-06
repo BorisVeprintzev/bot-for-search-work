@@ -5,11 +5,11 @@ from . import models
 class ResumeAdmin(admin.ModelAdmin):
     list_display = [
         'pk',
-        '_speciality',
+        '_specialty',
         '_count_works'
         ]
     list_editable = [
-        '_speciality',
+        '_specialty',
         '_count_works'
     ]
 
